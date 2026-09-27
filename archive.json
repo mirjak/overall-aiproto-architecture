@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-09-24T04:04:45.266735+00:00",
+  "timestamp": "2026-09-27T04:40:34.574631+00:00",
   "repo": "zaheduzzaman/overall-aiproto-architecture",
   "labels": [
     {
@@ -84,26 +84,69 @@
       "id": "PR_kwDOTu3Wf88AAAABD6DPKw",
       "title": "Update draft to align with the revised charter",
       "url": "https://github.com/zaheduzzaman/overall-aiproto-architecture/pull/2",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "tireddy2",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-09-17T10:06:57Z",
-      "updatedAt": "2026-09-17T10:06:57Z",
+      "updatedAt": "2026-09-25T08:04:02Z",
       "baseRepository": "zaheduzzaman/overall-aiproto-architecture",
       "baseRefName": "main",
       "baseRefOid": "c12f52c5af69d9a11e9b572e4a30b7f6f88772a9",
       "headRepository": "tireddy2/overall-aiproto-architecture",
       "headRefName": "main",
-      "headRefOid": "f34e2eafe1737655a41f429c5e713c4a2b45b9f4",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "cde20eb69679e739ddc22aea8a6cc34dba348900",
+      "closedAt": "2026-09-25T08:04:02Z",
+      "mergedAt": "2026-09-25T08:04:02Z",
+      "mergedBy": "zaheduzzaman",
+      "mergeCommit": {
+        "oid": "8ec19c906a6d5f68b23c5fec13fba3d541a4ffb9"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOTu3Wf88AAAABPBOdSQ",
+          "commit": {
+            "abbreviatedOid": "f34e2ea"
+          },
+          "author": "zaheduzzaman",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-09-24T10:04:39Z",
+          "updatedAt": "2026-09-24T10:04:39Z",
+          "comments": [
+            {
+              "originalPosition": 441,
+              "body": "Even if we may call this block dialog, we should include context and context id here rather than dialog it, which may be needed as well.",
+              "createdAt": "2026-09-24T10:04:39Z",
+              "updatedAt": "2026-09-24T10:04:39Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOTu3Wf88AAAABPCDYZg",
+          "commit": {
+            "abbreviatedOid": "f34e2ea"
+          },
+          "author": "tireddy2",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-09-24T11:26:50Z",
+          "updatedAt": "2026-09-24T11:26:50Z",
+          "comments": [
+            {
+              "originalPosition": 441,
+              "body": "Agreed, will add (a) Dialog context (b) Dialog Context Identifier to the block ",
+              "createdAt": "2026-09-24T11:26:50Z",
+              "updatedAt": "2026-09-24T11:26:50Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
