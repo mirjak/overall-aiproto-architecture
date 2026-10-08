@@ -1,7 +1,7 @@
 ---
 title: "Reference Architecture for Agent Communication"
 abbrev: "Agent Comm Architecture"
-docname: draft-zahed-agent-com-framework-latest
+docname: draft-zahed-agent-com-refarch-latest
 category: info
 ipr: trust200902
 # area: xxxxx
