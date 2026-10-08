@@ -312,22 +312,6 @@ Attestation, as defined in the SEAT WG, binds attestation evidence to agent comm
 TODO: This text will be revised to point to the relevant
 specifications in the DAWN WG.
 
-Discovery in open environments requires resolving an agent identifier to
-current network locations and advertised capabilities across administrative
-domains. Existing mechanisms do not support capability-aware, federated
-resolution without pre-established trust relationships.
-A2A introduces the Agent Card, a JSON document available at a well-known URI
-(/.well-known/agent.json) that advertises agent capabilities. While useful,
-this mechanism assumes prior knowledge of the agent's domain.
-A scalable discovery system requires:
-
-- Globally unique agent identifiers ( e.g DNS-rooted)
-- Signed Agent Capability Documents
-- Federation protocols with provenance tagging and hop limits
-
-Concrete mechanisms for agent resolution and capability-based discovery are
-the subject of ongoing, early-stage work in the IETF and are not yet settled.
-
 # Security Aspects {#security}
 
 Security for agent communication spans four interdependent concerns: verifiable agent identity, channel protection, binding of authorized intent to agent execution, and delegation chain integrity. The use cases and protocol requirements that motivate this architecture are discussed in {{I-D.agentic-ai-usecases-requirements}}. Some of the mechanisms for satisfying these requirements using existing IETF standards are described in {{I-D.ietf-wimse-aims}}.
